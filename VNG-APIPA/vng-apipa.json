@@ -92,7 +92,8 @@
             "sku": {
                 "name": "Standard",
                 "tier": "Regional" 
-            }
+            },
+            "zones": []
         },
         {
             "condition": "[equals(parameters('activeActive'),'Enabled')]",
@@ -104,11 +105,11 @@
             "properties": {
                 "publicIPAllocationMethod": "Static"
             },
-            "zones": []
             "sku": {
                 "name": "Standard",
                 "tier": "Regional" 
-            }
+            },
+            "zones": []
         },
         {
             "condition": "[equals(parameters('activeActive'),'Enabled')]",
