@@ -81,7 +81,7 @@
     },
     "resources": [
         {
-            "apiVersion": "2022-11-01",
+            "apiVersion": "2024-05-01",
             "type": "Microsoft.Network/publicIPAddresses",
             "name": "[variables('PublicIPName1')]",
             "location": "[variables('location')]",
@@ -97,7 +97,7 @@
         },
         {
             "condition": "[equals(parameters('activeActive'),'Enabled')]",
-            "apiVersion": "2022-11-01",
+            "apiVersion": "2024-05-01",
             "type": "Microsoft.Network/publicIPAddresses",
             "name": "[variables('PublicIPName2')]",
             "location": "[variables('location')]",
@@ -109,7 +109,7 @@
                 "name": "Standard",
                 "tier": "Regional" 
             },
-            "zones": []
+            "zones": "[]"
         },
         {
             "condition": "[equals(parameters('activeActive'),'Enabled')]",
