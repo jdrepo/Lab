@@ -92,8 +92,7 @@
             "sku": {
                 "name": "Standard",
                 "tier": "Regional" 
-            },
-            "zones": []
+            }
         },
         {
             "condition": "[equals(parameters('activeActive'),'Enabled')]",
@@ -108,8 +107,7 @@
             "sku": {
                 "name": "Standard",
                 "tier": "Regional" 
-            },
-            "zones": []
+            }
         },
         {
             "condition": "[equals(parameters('activeActive'),'Enabled')]",
