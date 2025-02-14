@@ -104,6 +104,7 @@
             "properties": {
                 "publicIPAllocationMethod": "Static"
             },
+            "zones": []
             "sku": {
                 "name": "Standard",
                 "tier": "Regional" 
