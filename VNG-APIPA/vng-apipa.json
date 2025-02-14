@@ -93,7 +93,7 @@
                 "name": "Standard",
                 "tier": "Regional" 
             },
-            "zones": {}
+            "zones": []
         },
         {
             "condition": "[equals(parameters('activeActive'),'Enabled')]",
@@ -109,7 +109,7 @@
                 "name": "Standard",
                 "tier": "Regional" 
             },
-            "zones": {}
+            "zones": []
         },
         {
             "condition": "[equals(parameters('activeActive'),'Enabled')]",
